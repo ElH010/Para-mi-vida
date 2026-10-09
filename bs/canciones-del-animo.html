@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#edf6fa">
+    <title>Canciones para ti | Feliz 5 día de tu semana mágica mi amor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="semana-magica.css">
+    <script src="canciones-del-animo.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <a class="wordmark" href="index.html" aria-label="Entre canciones, inicio">entre canciones<span>.</span></a>
+        <a class="header-link" href="elige-tu-animo.html">Cambiar ánimo <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main class="content-page">
+        <p class="breadcrumb"><a href="elige-tu-animo.html">Ánimos</a> <span aria-hidden="true">/</span> <span id="mood-crumb">Tu selección</span></p>
+        <section class="page-intro">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> Una selección para ti</p>
+            <h1 id="mood-title">Canciones para este momento</h1>
+            <p id="mood-description">Cada disco te lleva a su canción en YouTube.</p>
+        </section>
+
+        <section id="song-list" class="song-list" aria-label="Canciones"></section>
+        <div id="empty-state" class="empty-state" role="status" hidden>
+            <strong>Esta selección está por empezar.</strong>
+            <span>Pronto pondremos aquí las canciones que acompañan este ánimo.</span>
+        </div>
+        <a class="text-link back-link" href="elige-tu-animo.html">← Elegir otro ánimo</a>
+    </main>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "feliz-5-dia-de-tu-semana-magica-mi-amor",
+  "version": "1.0.0",
+  "description": "Feliz 5 día de tu semana mágica mi amor",
+  "scripts": {
+    "start": "parcel ./*.html ",
+    "build": "parcel build ./*.html  --dist-dir ./build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
